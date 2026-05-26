@@ -1,0 +1,12 @@
+{
+    "id": 0,
+    "username": "",
+    "global_name": "",
+    
+    "tribe": "none",
+    "is_admin": false,
+    "receive_announcements": false,
+    "session_reminders": [
+        
+    ]
+}

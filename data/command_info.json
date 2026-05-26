@@ -1,0 +1,140 @@
+{
+    "COG_NAME": {
+        "GROUP_INFORMATION": {
+            "name": "",
+            "desc": "CANNOT BE EMPTY FOR SOME REASON EVEN IF IT NEVER SHOWS UP"
+        },
+
+        "COMMAND": {
+            "name": "",
+            "desc": "",
+            "title": "",
+            "body": "",
+            "args": {
+                "argument": ""
+            }
+        }
+    },
+
+    "SURVIVOR_HELP": {
+        "GROUP_INFORMATION": {
+            "name": "survivor_help",
+            "desc": "CANNOT BE EMPTY FOR SOME REASON EVEN IF IT NEVER SHOWS UP"
+        },
+
+
+        "about": {
+            "name": "about",
+            "desc": "Read about Minecraft Survivor!",
+            "title": "About Minecraft Survivor",
+            "body": "Minecraft Survivor is a game based on the fifty-season reality TV show \"Survivor\", but set in Minecraft. While trying to survive on an unforgiving island, castaways must use their strategic, social, and physical skills to outwit, outplay, and outlast the 17 people around them to become the Sole Survivor.\n\nThe game starts off in a tribe phase, where players are broken up into tribes to compete for immunity. The tribe(s) that lose those challenges must then vote for somebody to be removed from their tribe and eliminated from the game. At around the halfway point in the game, the tribes merge into one, and individuals compete for immunity from the vote, where anyone else can be voted out at any time. This continues until there are 2-3 players left, where those final players must then present their case to a jury of the people they have voted out. The jury then votes for the winner of the game, or the Sole Survivor.\n\nThe game expects and encourages building relationships, betraying allies, and lying to further one's game, but be careful not to piss off too many people, otherwise they won't vote for you to become the Sole Survivor! Use all the skills you have at your disposal to get to the end, but know that everyone else will be doing the same thing."
+        },
+        "rules": {
+            "name": "rules",
+            "desc": "Get the links to the Minecraft Survivor rules documents.",
+            "title": "",
+            "body": ""
+        },
+        "banned_mods": {
+            "name": "banned_mods",
+            "desc": "List of Minecraft mods that are banned under the Minecraft Survivor rules.",
+            "title": "Banned Mods",
+            "body": "- Appleskin\n- Better Hitreg\n- Better Name Visibility\n- Boat Item View\n- Chat Tools\n- Clean View\n- Clickthrough Plus\n- Cull Leaves\n- Cut Through\n- Disable Fog\n- Dynamic Crosshair\n- EssentialGUI\n- Held Item Info\n- Hold That Chunk\n- Inventory HUD +\n- ItemLocks\n- ItemSwapper\n- Jade (or any other block info mod)\n- Lightweight Inventory Sorting\n- Locator Lodestones\n- More Culling\n- Optimal Aim\n- Peek\n- Pet Owner\n- Pick Up Notifier\n- Ping Wheel\n- Shield Statuses\n- Slot Cycler\n- Sounds Be Gone!\n- Status Effect Bars\n- Status Effect Timer\n- Timber!\n- Toggle Nametags\n- Toggleable PieChart\n- ToroHealth Continued\n- wWaypoints (and any waypoint/minimap mod)\n- Zoomify (and any zoom mod)"
+        },
+        "server_info": {
+            "name": "server_info",
+            "desc": "Get info to join the server!",
+            "title": "Minecraft Survivor Season 2",
+            "body": "**MC Version:** 1.21.11\n**IP:** survivor.play.major.tools\n**Recommended Mods:** Fabric API, Flashback, Iris Shaders, Simple Voice Chat, Sodium, Voice Chat Interaction"
+        },
+        "FAQ": {
+            "name": "faq",
+            "desc": "Read answers to frequently asked questions.",
+            "title": "Frequently Asked Questions",
+            "body": ""
+        },
+        "show_random_tip": {
+            "name": "tips",
+            "desc": "Receive a random tip submitted by fellow Survivor players!",
+            "title": "DON'T USE THIS",
+            "body": "THIS COMMAND HAS CUSTOM BEHAVIOR"
+        },
+        "user_submit_tip": {
+            "name": "submit_tip",
+            "desc": "Submit a helpful tip for fellow Survivor players!",
+            "title": "",
+            "body": "",
+            "args": {
+                "content": "The text you're submitting as a tip."
+            }
+        }
+    },
+
+    "GENERAL": {
+        "_comment": "Note: this cog is not a group, just a collection of general-purpose commands",
+
+        "about": {
+            "name": "about",
+            "desc": "Read about Survivor Bot.",
+            "title": "About Survivor Bot",
+            "body": ""
+        },
+        "help": {
+            "name": "help",
+            "desc": "Get help on how to use Survivor Bot",
+            "title": "Survivor Bot Help",
+            "body": ""
+        }
+    },
+
+    "RECEIVE_DMS": {
+        "GROUP_INFORMATION": {
+            "name": "receive_dms",
+            "desc": "CANNOT BE EMPTY FOR SOME REASON EVEN IF IT NEVER SHOWS UP"
+        },
+
+        "announcements": {
+            "name": "announcements",
+            "desc": "Opt-in to receive announcements from Survivor moderators. Sent via Discord DM.",
+            "title": "NOT USED",
+            "body": "NOT USED"
+        },
+        "reminder": {
+            "GROUP_INFORMATION": {
+                "name": "session_reminder",
+                "desc": "Opt-in to receive timed reminders before every Survivor session."
+            },
+
+            "list": {
+                "name": "list",
+                "desc": "List any reminders that you are currently set to receive.",
+                "title": "",
+                "body": "",
+                "args": {
+                    "argument": ""
+                }
+            },
+            "add": {
+                "name": "set",
+                "desc": "Set a timed reminder to receive before a session. Can optionally repeat. Sent via Discord DM.",
+                "title": "",
+                "body": "",
+                "args": {
+                    "hours": "How many hours before the session (0-23, default 0). Added onto minutes.",
+                    "minutes": "How many minutes before the session (0-59, default 0). Added onto hours.",
+                    "name": "Name of the reminder (optional).",
+                    "week": "Which week to send this reminder (1-15). Alternatively, leave empty to send before every week!"
+                }
+            },
+            "remove": {
+                "name": "remove",
+                "desc": "Shows a list of your current reminders. Choose which one to remove",
+                "title": "",
+                "body": "",
+                "args": {
+                    "argument": ""
+                }
+            }
+        }
+    }
+}

@@ -205,4 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
 survivor_token.py
+cogs/admin.py
+cogs/config.py
+scratchpad/
+data/config/*
+data/users/*
+!data/users/template.json
+admin_files/

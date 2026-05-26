@@ -1,21 +1,29 @@
 import discord as disc
+from discord import app_commands as apps
 from discord.ext import commands as cmds
 
-import toolkit.send_error_embed as see
+from toolkit.command_info import CMD_INFO
+from toolkit import iotools
 
-class MY_COG(cmds.Cog):
-    def __init__(self, bot):
+class MY_COG(
+    cmds.GroupCog, 
+    group_name=CMD_INFO['COG_NAME']['GROUP_INFORMATION']['name'], 
+    group_description=CMD_INFO['COG_NAME']['GROUP_INFORMATION']['desc']
+):
+    def __init__(self, bot: cmds.Bot):
         self.bot = bot
     
-    @cmds.group(name = "MY_COG", invoke_without_command = True)
-    async def my_cog(self, ctx: cmds.Context, arg: str = None):
-        await see.cmd_group(ctx, arg)
-    
-    @my_cog.command()
-    async def subfunction(self, ctx: cmds.Context):
-        await ctx.send(
-            "default message"
+    @apps.command(
+        name=CMD_INFO['COG_NAME']['COMMAND']['name'],
+        description=CMD_INFO['COG_NAME']['COMMAND']['desc'],
+    )
+    async def cmd(self, intx: disc.Interaction) -> None:
+        embed = iotools.build_embed(
+            intx,
+            title = CMD_INFO['COG_NAME']['COMMAND']['title'],
+            body = CMD_INFO['COG_NAME']['COMMAND']['body']
         )
+        await intx.response.send_message(embed=embed, ephemeral=True)
 
 async def setup(bot):
     await bot.add_cog(MY_COG(bot))

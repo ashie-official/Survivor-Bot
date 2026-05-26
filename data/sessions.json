@@ -1,0 +1,155 @@
+{
+    "template": {
+        "datetime": "2026-05-22T20:00:00-07:00",
+        "duration": 120,
+        "completed": false,
+        "info": {
+            "summary": "",
+            "updates": "",
+            "eliminations": ""
+        }
+    },
+
+    "sessions": [
+        {
+            "datetime": "2026-05-22T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-05-29T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-06-05T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-06-12T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-06-19T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-06-26T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-07-03T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-07-10T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-07-17T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-07-24T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-07-31T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-08-07T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-08-14T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        },
+        {
+            "datetime": "2026-08-21T20:00:00-07:00",
+            "duration": 120,
+            "completed": false,
+            "info": {
+                "summary": "",
+                "updates": "",
+                "eliminations": ""
+            }
+        }
+    ]
+}
