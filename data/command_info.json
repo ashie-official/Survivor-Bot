@@ -122,7 +122,7 @@
                 "args": {
                     "hours": "How many hours before the session (0-23, default 0). Added onto minutes.",
                     "minutes": "How many minutes before the session (0-59, default 0). Added onto hours.",
-                    "name": "Name of the reminder (optional).",
+                    "name": "(Optional) Name of the reminder.",
                     "week": "Which week to send this reminder (1-15). Alternatively, leave empty to send before every week!"
                 }
             },
@@ -134,6 +134,43 @@
                 "args": {
                     "argument": ""
                 }
+            }
+        }
+    },
+
+    "MATH": {
+        "GROUP_INFORMATION": {
+            "name": "math",
+            "desc": "Various math functions."
+        },
+
+        "online_time": {
+            "name": "online_time",
+            "desc": "Convert online time to human-readable format.",
+            "title": "Online Time Conversion",
+            "body": "",
+            "args": {
+                "your_score": "Your score provided by the Online Time button.",
+                "highest_score": "(Optional) Highest score provided by the Online Time button."
+            }
+        },
+        "mob_drops": {
+            "name": "mob_drops",
+            "desc": "Get statistics on how many mob kills needed to a get a certain number of drops.",
+            "title": "",
+            "body": "",
+            "args": {
+                "drop_rate": "Drop rate given as a decimal (ex. 5% is 0.05).",
+                "drop_count": "Number of drops desired (default 1)."
+            }
+        },
+        "COMMAND": {
+            "name": "",
+            "desc": "",
+            "title": "",
+            "body": "",
+            "args": {
+                "argument": ""
             }
         }
     }

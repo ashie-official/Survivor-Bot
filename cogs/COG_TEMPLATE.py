@@ -17,7 +17,10 @@ class MY_COG(
         name=CMD_INFO['COG_NAME']['COMMAND']['name'],
         description=CMD_INFO['COG_NAME']['COMMAND']['desc'],
     )
-    async def cmd(self, intx: disc.Interaction) -> None:
+    @apps.describe(
+        arg = CMD_INFO['COG_NAME']['COMMAND']['args']['arg']
+    )
+    async def cmd(self, intx: disc.Interaction, arg) -> None:
         embed = iotools.build_embed(
             intx,
             title = CMD_INFO['COG_NAME']['COMMAND']['title'],
