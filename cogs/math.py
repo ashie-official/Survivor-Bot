@@ -125,9 +125,9 @@ class MATH(
         canvas_left, canvas_right = ax.get_xlim()
 
         # Palette Map: Lime -> Orange -> Red
-        ax.axvspan(canvas_left, s['p50'], facecolor='lime', alpha=0.1, edgecolor='none', label='0-50% (Lucky)')
-        ax.axvspan(s['p50'], s['p75'], facecolor='orange', alpha=0.1, edgecolor='none', label='50-75% (Average)')
-        ax.axvspan(s['p75'], canvas_right, facecolor='red', alpha=0.14, edgecolor='none', label='75-95% (Unlucky)')
+        ax.axvspan(canvas_left, s['p50'], facecolor='lime', alpha=0.15, edgecolor='none', label='0-50% (Lucky)')
+        ax.axvspan(s['p50'], s['p75'], facecolor='orange', alpha=0.15, edgecolor='none', label='50-75% (Average)')
+        ax.axvspan(s['p75'], canvas_right, facecolor='red', alpha=0.20, edgecolor='none', label='75-95% (Unlucky)')
 
         # Plots & Lines
         ax.plot(x, cdf_y, color='#5865F2', linewidth=2.5, label='Cumulative Probability')
@@ -223,10 +223,10 @@ class MATH(
         canvas_left, canvas_right = ax.get_xlim()
 
         # Palette Map: Red -> Orange -> Yellow -> Lime
-        ax.axvspan(canvas_left, s['p95'], facecolor='red', alpha=0.14, edgecolor='none', label='0-5% (Floor Guarantee)')
-        ax.axvspan(s['p95'], s['p75'], facecolor='orange', alpha=0.1, edgecolor='none', label='5-25% (Low Yield)')
-        ax.axvspan(s['p75'], s['p50'], facecolor='yellow', alpha=0.1, edgecolor='none', label='25-50% (Below Average)')
-        ax.axvspan(s['p50'], canvas_right, facecolor='lime', alpha=0.1, edgecolor='none', label='>50% (Above Average)')
+        ax.axvspan(canvas_left, s['p95'], facecolor='red', alpha=0.20, edgecolor='none', label='0-5% (Floor Guarantee)')
+        ax.axvspan(s['p95'], s['p75'], facecolor='orange', alpha=0.15, edgecolor='none', label='5-25% (Low Yield)')
+        ax.axvspan(s['p75'], s['p50'], facecolor='yellow', alpha=0.15, edgecolor='none', label='25-50% (Below Average)')
+        ax.axvspan(s['p50'], canvas_right, facecolor='lime', alpha=0.15, edgecolor='none', label='>50% (Above Average)')
 
         # Plots & Lines
         ax.plot(x, cdf_y, color='#5865F2', linewidth=2.5, label='Cumulative Probability')
