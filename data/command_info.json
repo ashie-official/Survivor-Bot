@@ -154,19 +154,29 @@
                 "highest_score": "(Optional) Highest score provided by the Online Time button."
             }
         },
-        "mob_drops": {
-            "name": "mob_drops",
-            "desc": "Get statistics on how many mob kills needed to a get a certain number of drops.",
+        "attempt_stats": {
+            "name": "attempt_stats",
+            "desc": "Get statistics on attempts needed given a desired number of successes, ex. mob drops, chicken spawns",
             "title": "",
             "body": "",
             "args": {
-                "drop_rate": "Drop rate given as a decimal (ex. 5% is 0.05).",
-                "drop_count": "Number of drops desired (default 1)."
+                "rate": "Rate of success given as a decimal (ex. 5% is 0.05).",
+                "successes": "Number of successes desired (default 1)."
             }
         },
-        "COMMAND": {
-            "name": "",
-            "desc": "",
+        "success_stats": {
+            "name": "success_stats",
+            "desc": "Get statistics on success count given a certain number of attempts, ex. mob kills, egg throws",
+            "title": "",
+            "body": "",
+            "args": {
+                "rate": "Rate of success given as a decimal (ex. 5% is 0.05).",
+                "attempts": "Number of attempts intended."
+            }
+        },
+        "rate_list": {
+            "name": "rate_list",
+            "desc": "Get a list of common probabilities, e.g. mob drops, egg throws, sapling drops from leaves, etc.",
             "title": "",
             "body": "",
             "args": {
